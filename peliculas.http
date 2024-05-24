@@ -1,0 +1,28 @@
+GET localhost:3000/api/peliculas
+
+###
+
+GET localhost:3000/api/peliculas/1
+
+###
+
+POST localhost:3000/api/peliculas
+Content-Type: application/json
+{
+    "titulo": "Pelicula 1",
+    "sinopsis": "Descripcion de la pelicula 1",
+    "anio": 2021,
+    "poster": "https://www.google.com",
+}
+
+###
+
+PUT localhost:3000/api/peliculas/1
+Content-Type: application/json
+{
+    "id": 1,
+    "titulo": "Pelicula 1",
+    "sinopsis": "Descripcion de la pelicula 1",
+    "anio": 2021,
+    "poster": "https://www.google.com",
+}
